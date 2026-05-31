@@ -39,7 +39,7 @@ interface GitHubRepo {
 interface GHData { user: GitHubUser; repos: GitHubRepo[] }
 
 // ── Constants ───────────────────────────────────────────────
-const USERNAME  = 'devinepal'
+const USERNAME  = 'BADUSER_XYZ_999'
 const USER_URL  = `https://api.github.com/users/${USERNAME}`
 const REPOS_URL = `https://api.github.com/users/${USERNAME}/repos?sort=pushed&per_page=6`
 
